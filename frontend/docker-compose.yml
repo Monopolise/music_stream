@@ -1,0 +1,9 @@
+version: '3'
+services:
+  frontend:
+    image: sveltekit_frontend
+    build:
+      context: ./
+    ports:
+      - "4173:4173"
+    command: ["npm", "run", "preview", "--", "--host"]

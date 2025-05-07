@@ -1,0 +1,39 @@
+## backend
+env/
+env.ps1
+db.sqlite3
+*.pyc
+__pycache__/
+venv/
+
+# Ignore Python cache files
+**/**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore any IDE specific settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Media files
+*.mp3
+*.mp4
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Tailwind CSS and Vite
+**/.vite/
+**/dist/
+
+.venv
+myapp/__pycache__
+*.pyc
